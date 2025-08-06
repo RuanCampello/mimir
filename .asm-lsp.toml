@@ -1,0 +1,4 @@
+[default_config]
+assembler = "fasm"
+instruction_set = "x86/x86-64"
+
