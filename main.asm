@@ -72,11 +72,11 @@ main:
     exit 1
 
   .is_set:
-    write SYS_OUT, msg_set, 4
+    write SYS_OUT, msg_set, msg_set_len
     exit 0
 
   .is_get:
-    write SYS_OUT, msg_get, 4
+    write SYS_OUT, msg_get, msg_get_len
     exit 0
 
 
